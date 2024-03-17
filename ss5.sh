@@ -275,7 +275,8 @@ menu() {
 
 
 
-    read -rp "请输入数字：" menu_num
+    # read -rp "请输入数字：" menu_num
+    menu_num="1"
     case $menu_num in
     1)
         install
