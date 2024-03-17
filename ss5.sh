@@ -92,6 +92,7 @@ sic_optimization() {
 
 port_set() {
         # read -rp "请设置连接端口（默认:1080）:" port
+	port=""
         [[ -z ${port} ]] && port="1080"
 }
 
@@ -118,6 +119,8 @@ bbr_install() {
 
 user_set() {
 	# read -rp  "请设置ss5账户。默认:admin）:" user
+ 	read=""
+  	passwd=""
 	[[ -z ${user} ]] && user="admin"
 	# read -rp "请设置ss5连接密码。默认:admin）:" passwd
 	[[ -z ${passwd} ]] && passwd="admin"
