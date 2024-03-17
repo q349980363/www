@@ -259,12 +259,12 @@ menu() {
     echo -e "\t---authored by zhangyu---"
     echo -e "\thttps://www.zhangyu.ml"
     echo -e "\tSystem Request:Debian 9+/Ubuntu 20.04+/Centos 7+"
-    echo -e "\t无法使用请联系1853479098@qq.com\n"
+    echo -e "\t无法使用请联系qq 245901 \n"
 
     echo -e "—————————————— 安装向导 ——————————————"
-    echo -e "${Green} 搭建调试IPV6  联系QQ1853479098${Font}"
+    echo -e "${Green} 搭建调试IPV6  联系QQ245901${Font}"
 
-    echo -e "${Red} QQ1853479098  ${Font}"
+    echo -e "${Red} QQ245901  ${Font}"
     echo -e "${Red} 调试MikroTik RouterOS软路由 分流IP${Font}"
     echo -e "${Green}1.${Font}  安装ss5"
     echo -e "${Green}2.${Font}  停止ss5"
